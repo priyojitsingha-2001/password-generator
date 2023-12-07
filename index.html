@@ -9,16 +9,32 @@
 </head>
 
 <body>
-    <nav><button>dark/light</button></nav>
     <div class="container">
         <h1>Generate a <span>Random password</span></h1>
+        <div class="options">
+            <label for="lowerCase">
+                lowerCase<input type="checkbox" id="lowerCase" checked>
+            </label>
+            <label for="upperCase">
+                upperCase<input type="checkbox" id="upperCase" checked>
+            </label>
+            <label for="numbers">
+                numbers<input type="checkbox" id="numbers">
+            </label>
+            <label for="symbols">
+                symbols<input type="checkbox" id="symbols">
+            </label>
+            <label for="length">
+                Length: <input type="number" id="length" value="16">
+            </label>
+        </div>
         <div class="display">
             <input type="text" id="password" placeholder="password">
             <img src="images/copy.png">
         </div>
         <button><img src="images/generate.png">Generate passowrd</button>
-        <footer></footer>
     </div>
+    <footer></footer>
     <script src="script.js"></script>
 </body>
 

@@ -1,5 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+@media screen and (max-width:600px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    span {
+        font-size: 35px;
+        border-bottom: 0;
+    }
+
+    .options {
+        margin-top: 60px;
+    }
+
+    .display {
+        position: relative;
+    }
+
+    .display img {
+        position: absolute;
+        right: 15px;
+    }
+
+    footer {
+        font-size: 10px;
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        bottom: 20px;
+        right: 15px;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +54,7 @@ body {
 
 .display {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
     color: #333;
     background: #fff;
@@ -40,6 +74,21 @@ body {
     color: #019f55;
     border-bottom: 4px solid #019f55;
     transition: all 0.3s ease-in-out;
+}
+
+.options {
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+
+.options label input {
+    margin: 0px 5px;
+}
+
+.options label input[id="length"] {
+    width: 45px;
+    padding: 0px 5px;
 }
 
 .display img {
@@ -83,6 +132,6 @@ body {
 }
 
 footer {
-    margin-top: 20%;
+    margin-top: 12%;
     text-align: center;
 }
