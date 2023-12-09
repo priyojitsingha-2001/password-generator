@@ -63,6 +63,7 @@ body {
     justify-content: space-between;
     padding: 26px 20px;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .container h1 {
